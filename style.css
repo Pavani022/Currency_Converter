@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(135deg, #2E3192, #1BFFFF); /* Deep blue to cyan */
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+h1{
+    color: #FFFFFF;
+    font-family: 'Caveat', cursive;
+}
+.Card {  
+    background-color: #E0F7FA; /* Light aqua */
+    color: #006064; /* Teal text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    width: 800px;
+    height: auto;
+    margin: 30px auto;
+    padding: 10px;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 3px;
+}
+.width{
+    width: 300px;
+}
+.btn-primary {
+    background-color: #023E8A; /* Dark navy blue */
+    border-color: #012A64; /* Darker navy for the border */
+    width: 800px;
+    border-radius: 15px;
+}
+.btn-primary:hover {
+    background-color: #012A64; /* Darker navy on hover */
+}
+.currency, .amount{
+    font-size: large;
+    font-weight: bold;
+}
